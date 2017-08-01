@@ -1,0 +1,114 @@
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.muguku.mash.nyumbani.MainActivity"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <android.support.design.widget.AppBarLayout
+                    android:background="@color/colorAccent2"
+                    android:id="@+id/appbar"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_width="match_parent"
+                        app:layout_scrollFlags="scroll|enterAlways">
+
+                        <TextView
+                            android:gravity="center_horizontal"
+                            android:textSize="12pt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nyumbani!"
+                            android:textColor="@color/googleColor"/>
+
+                    </android.support.v7.widget.Toolbar>
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:tabMode="scrollable">
+
+                        <android.support.design.widget.TabItem
+                            android:id="@+id/bonyezaall"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="All"
+                            android:onClick="clickedAll" />
+
+                        <android.support.design.widget.TabItem
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Bedsitters" />
+
+                        <android.support.design.widget.TabItem
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Singles" />
+
+                        <android.support.design.widget.TabItem
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Appartments" />
+
+
+
+                    </android.support.design.widget.TabLayout>
+                </android.support.design.widget.AppBarLayout>
+
+
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp">
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerview1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:indeterminate="true"
+                        android:indeterminateDrawable="@drawable/progressbar"
+                        android:visibility="visible"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>

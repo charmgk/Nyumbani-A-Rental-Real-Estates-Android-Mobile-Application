@@ -1,0 +1,179 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:background="@color/colorAccent2"
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:textSize="12pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nyumbani!"
+                android:textColor="@color/googleColor"/>
+
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="scrollable">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/bonyezaall"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="All"
+                android:onClick="clickedAll" />
+
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Bedsitters" />
+
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Singles" />
+
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Appartments" />
+
+
+
+        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+
+            <!--    <RatingBar
+                    android:background="@color/bg_login"
+                    android:paddingTop="10dp"
+                    android:id="@+id/ratingBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/kwapz"/>-->
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:background="@color/facebookColor"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_gravity="top"
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/otherrentals"
+                        android:layout_marginLeft="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_gravity="left"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rozallian Hostels"
+                            android:textSize="6pt"
+                            android:textColor="@color/googleColor" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_gravity="left"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hostel type: Bedsitter"
+                            android:textSize="6pt"
+                            android:textColor="@color/colorSecondary" />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_passs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_gravity="left"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Price: 8000 per Person"
+                            android:textSize="6pt"
+                            android:textColor="@color/colorSecondary" />
+
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/input_layout_pas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_gravity="left"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Available Rooms: 8 Sharing two per room"
+                            android:textSize="6pt"
+                            android:textColor="@color/colorSecondary" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,125 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.muguku.mash.nyumbani.LoginOptionActivity">
+
+
+
+    <LinearLayout
+        android:background="#eb2980b9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/app_nam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/app_name"
+                android:textColor="@color/googleColor"
+                android:textSize="14pt"
+                android:layout_marginBottom="5dp"/>
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/otherrentals"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+
+            <TextView
+                android:id="@+id/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/text_view"
+                android:layout_marginTop="@dimen/text_view2"
+                android:text="@string/chose_action"
+                android:textColor="@color/white"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:src="@drawable/otherrentals" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/text_view"
+            android:layout_marginTop="@dimen/text_view2"
+            android:text="@string/chose_action"
+            android:textColor="@color/white"
+            android:textSize="8pt" />
+    </LinearLayout>-->
+
+
+        <LinearLayout
+            android:background="@drawable/rounded_red_border"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/pad_left"
+            android:paddingRight="@dimen/pad_left2"
+            android:layout_centerHorizontal="true">
+
+
+            <Button
+                android:id="@+id/sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/btn4"
+                android:background="@color/facebookColor"
+                android:padding="@dimen/btn2"
+                android:text="SIGN IN"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/btn"
+                android:background="@color/googleColor"
+                android:padding="@dimen/btn2"
+                android:text="SIGN UP"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/without_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/btn"
+                android:background="@color/colorAccent"
+                android:padding="@dimen/btn2"
+                android:text="Continue Without LOGIN"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>
