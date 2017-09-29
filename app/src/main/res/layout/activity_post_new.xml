@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="@color/custom_progress_green_header">
+        android:background="@color/quizColor">
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -48,7 +48,7 @@
 
                 <RelativeLayout
                     android:background="@drawable/rounded_red_border"
-                    android:layout_width="match_parent"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content">
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -73,8 +73,8 @@
                                 android:layout_height="wrap_content"
                                 android:textColorHint="@color/textColorPrimary">
 
-                                <AutoCompleteTextView
-                                    android:id="@+id/email"
+                                <EditText
+                                    android:id="@+id/hstlname"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:singleLine="true"
@@ -86,35 +86,35 @@
 
 
                             <android.support.design.widget.TextInputLayout
-                                android:id="@+id/password"
+                                android:id="@+id/htltypa"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textColorHint="@color/textColorPrimary">
 
                                 <EditText
-                                    android:id="@+id/input_password"
+                                    android:id="@+id/hstltype"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:inputType="textPassword"
+                                    android:inputType="text"
                                     android:drawableLeft="@drawable/ic_key"
                                     android:drawableTint="@color/textColorPrimary"
                                     android:hint="Hostel Type" />
                             </android.support.design.widget.TextInputLayout>
 
-                            <android.support.design.widget.TextInputLayout
+<!--                            <android.support.design.widget.TextInputLayout
                                 android:id="@+id/input_layout_username"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textColorHint="@color/textColorPrimary">
 
                                 <EditText
-                                    android:id="@+id/name"
+                                    android:id="@+id/hstllocation"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:drawableLeft="@drawable/ic_person"
                                     android:drawableTint="@color/textColorPrimary"
-                                    android:hint="Hostel LOcation" />
-                            </android.support.design.widget.TextInputLayout>
+                                    android:hint="Hostel Location" />
+                            </android.support.design.widget.TextInputLayout>-->
 
                             <android.support.design.widget.TextInputLayout
                                 android:id="@+id/input_layout_username4"
@@ -123,12 +123,27 @@
                                 android:textColorHint="@color/textColorPrimary">
 
                                 <EditText
-                                    android:id="@+id/name8"
+                                    android:id="@+id/availablerooms"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:drawableLeft="@drawable/ic_person"
                                     android:drawableTint="@color/textColorPrimary"
                                     android:hint="Available rooms" />
+                            </android.support.design.widget.TextInputLayout>
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/input_layout_username5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColorHint="@color/textColorPrimary">
+
+                                <EditText
+                                    android:id="@+id/roomprices"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:drawableLeft="@drawable/ic_person"
+                                    android:drawableTint="@color/textColorPrimary"
+                                    android:hint="Room Pricing" />
                             </android.support.design.widget.TextInputLayout>
 
                             <LinearLayout
@@ -137,16 +152,16 @@
                                 android:orientation="vertical"
                                 android:layout_alignParentBottom="true">
 
-                                <Button android:id="@+id/btnRegister"
+                                <Button android:id="@+id/btnRegisterHstl"
                                     android:layout_width="fill_parent"
                                     android:layout_height="wrap_content"
                                     android:text="Register Hostel"
                                     android:textStyle="bold"
                                     android:textSize="18dp"
                                     android:background="@drawable/roundbtn3"
-                                    android:layout_marginTop="20dp"
+                                    android:layout_marginTop="10dp"
                                     android:textColor="@color/colorPrimaryDark"
-                                    android:onClick="regHostel"/>
+                                    android:onClick="regNewHostel"/>
 
 
                                 <!--<Button

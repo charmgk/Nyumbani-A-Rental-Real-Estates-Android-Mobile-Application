@@ -57,6 +57,16 @@
             android:label="@string/title_activity_home_navigation"
             android:theme="@style/AppTheme" />
         <activity
+            android:name=".HomeNavigationActivity2"
+            android:label="@string/title_activity_home_navigation"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".ChatActivity"
+            android:label="@string/title_activity_home_navigation"
+            android:theme="@style/AppTheme" />
+
+        <activity
             android:name=".AppartmentsNavigationActivity"
             android:label="@string/title_activity_home_navigation"
             android:theme="@style/AppTheme" />
@@ -72,7 +82,6 @@
             android:name=".SocialMediaActivity"
             android:label="@string/title_activity_social_media"
             android:theme="@style/AppTheme" />
-        <activity android:name=".ChatActivity" />
         <activity
             android:name=".PostNewActivity"
             android:label="@string/title_activity_post_new" />

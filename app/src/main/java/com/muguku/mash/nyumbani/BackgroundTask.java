@@ -41,13 +41,19 @@ public class BackgroundTask extends AsyncTask<String,Void,String>  {
     @Override
     protected String doInBackground(String... params) {
 
-        //For genymotion
-        String reg_url = "http://10.0.3.2/mnyumba/php/register.php";
-        String login_url = "http://10.0.3.2/mnyumba/php/login.php";
-
         //for actual devices
-/*        String reg_url = "http://192.168.173.154/mnyumba/php/register.php";
-        String login_url = "http://192.168.173.154/mnyumba/php/login.php";*/
+        String reg_url = "https://nyumbanii.000webhostapp.com/php/register.php";
+        String login_url = "https://nyumbanii.000webhostapp.com/php/login.php";
+
+        //For genymotion
+       /* String reg_url = "http://10.0.3.2/mnyumba/php/register.php";
+        String login_url = "http://10.0.3.2/mnyumba/php/login.php";*/
+
+
+      /*  //for actual devices
+        String reg_url = "http://192.168.38.68/mnyumba/php/register.php";
+        String login_url = "http://192.168.38.68/mnyumba/php/login.php";*/
+
 
         //For android adb emulator
        /* String reg_url = "http://10.0.2.2/mnyumba/webapp/register.php";

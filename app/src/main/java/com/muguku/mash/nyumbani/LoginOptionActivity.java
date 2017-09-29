@@ -40,7 +40,7 @@ public class LoginOptionActivity extends AppCompatActivity {
         withOutLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent home = new Intent(LoginOptionActivity.this, HomeNavigationActivity.class);
+                Intent home = new Intent(LoginOptionActivity.this, HomeNavigationActivity2.class);
                 startActivity(home);
 
             }

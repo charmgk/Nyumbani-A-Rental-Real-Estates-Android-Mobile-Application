@@ -39,8 +39,9 @@ public class DetailsMapsActivity extends FragmentActivity implements OnMapReadyC
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(0.3212098, 37.06520182);
+        LatLng sydney = new LatLng(-0.321035, 37.653529);
         mMap.addMarker(new MarkerOptions().position(sydney).title("student hostel here, Ndagani, Chuka"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
+

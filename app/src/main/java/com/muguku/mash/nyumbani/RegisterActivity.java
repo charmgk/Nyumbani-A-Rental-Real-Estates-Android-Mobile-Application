@@ -16,6 +16,7 @@ import android.widget.TextView;
  */
 
 public class RegisterActivity extends AppCompatActivity  {
+
     private static final String TAG = RegisterActivity.class.getSimpleName();
 
    /* private EditText fullname, email, password;*/
@@ -51,6 +52,12 @@ public class RegisterActivity extends AppCompatActivity  {
             }
         });*/
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        // disable going back to the MainActivity
+        moveTaskToBack(false);
     }
 
 

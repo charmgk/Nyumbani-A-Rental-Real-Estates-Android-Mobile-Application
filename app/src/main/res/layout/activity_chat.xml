@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.muguku.mash.nyumbani.PostNewActivity">
+    tools:context="com.muguku.mash.nyumbani.ChatActivity">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -73,8 +73,8 @@
                                 android:layout_height="wrap_content"
                                 android:textColorHint="@color/textColorPrimary">
 
-                                <AutoCompleteTextView
-                                    android:id="@+id/email"
+                                <EditText
+                                    android:id="@+id/uuname"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:singleLine="true"
@@ -86,18 +86,17 @@
 
 
                             <android.support.design.widget.TextInputLayout
-                                android:id="@+id/password"
+                                android:id="@+id/chatmess"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textColorHint="@color/textColorPrimary">
 
                                 <EditText
-                                    android:id="@+id/input_password"
+                                    android:id="@+id/iinput_password"
                                     android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:inputType="textPassword"
-                                    android:drawableLeft="@drawable/ic_key"
-                                    android:drawableTint="@color/textColorPrimary"
+                                    android:layout_height="150dp"
+                                    android:inputType="text"
+                                    android:drawableLeft="@drawable/ic_email_black_24dp"
                                     android:hint="Message" />
                             </android.support.design.widget.TextInputLayout>
 
@@ -109,7 +108,7 @@
                                 android:orientation="vertical"
                                 android:layout_alignParentBottom="true">
 
-                                <Button android:id="@+id/btnRegister"
+                                <Button android:id="@+id/bbutonmbili"
                                     android:layout_width="fill_parent"
                                     android:layout_height="wrap_content"
                                     android:text="Send Text"
@@ -118,7 +117,7 @@
                                     android:background="@drawable/roundbtn3"
                                     android:layout_marginTop="20dp"
                                     android:textColor="@color/colorPrimaryDark"
-                                    android:onClick="regHostel"/>
+                                    android:onClick="messg"/>
 
 
                                 <!--<Button

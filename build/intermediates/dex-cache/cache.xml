@@ -2,22 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/mash/.android/build-cache/f765c18ec6f83b6e07eab19e23d66f52a4ad98ec/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="d410043f93e71bb0179ba86b85726dd080f14b79">
-        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c0ef9dfd6c51c27a26ee111f9c1e3ee1da0ed9c7/classes.dex" />
-    </item>
-    <item
         is-multidex="false"
-        jar="/home/mash/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jar="/home/mash/.android/build-cache/7ca8a965787f94e0509e37b2a58d654f57dbcc69/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_dee63e0495a83d6cded708be5bb04f469a5a2e8e.jar" />
+        sha1="5687d5d0a5cc1113f84a0477d8fdd3b91222d26e">
+        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/pre-dexed/debug/classes_32705ef5881e5a21e56c3182725eee6842c97f04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mash/.android/build-cache/f765c18ec6f83b6e07eab19e23d66f52a4ad98ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d410043f93e71bb0179ba86b85726dd080f14b79">
+        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/pre-dexed/debug/classes_c0ef9dfd6c51c27a26ee111f9c1e3ee1da0ed9c7.jar" />
     </item>
     <item
         is-multidex="true"
@@ -25,17 +25,8 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cf0992642867562677139d998bcc4ae4796fd00d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/mash/.android/build-cache/7ca8a965787f94e0509e37b2a58d654f57dbcc69/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="5687d5d0a5cc1113f84a0477d8fdd3b91222d26e">
-        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_32705ef5881e5a21e56c3182725eee6842c97f04/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -43,53 +34,26 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="a64f8bbafe38a1bc9eca30b8410329939ba4efb7">
+        sha1="b18107ec28f41844a02f8aa6e869a995e0e26008">
         <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_46c644eb9d95472b7a253974d640a38e94819a09/classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/mash/.android/build-cache/47fdf6cda5b2431f2ca53e9b7824a1c8770f8a9a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
-        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/pre-dexed/debug/classes_b0e5085ed82c70317cc97784e537aedda3c55f75.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/mash/.android/build-cache/f787e3f71d0ba729bb46c494a78d9d1463b14d33/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="d68bbf92de9721b02a31a3833abfdc90144c7e39">
-        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1ae79be8b334373967446c71076821cda8a5925a/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/mash/.android/build-cache/13d173bf86b1b21726b01aa31965df9cf80d6606/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/pre-dexed/debug/classes_73e8a2f7a11396fd88e6487e0fecc76bd8af4f60.jar" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/mash/.android/build-cache/f54b7202b27a8714de0e0a75fc5300deab569ffa/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="e72c498ef3e345135b6bfdf7fc83c6b905228ade">
-        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fbfb437776d01e8620bac04d84c03bd8d38e93e8/classes.dex" />
+        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/pre-dexed/debug/classes_fbfb437776d01e8620bac04d84c03bd8d38e93e8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/mash/.android/build-cache/13d173bf86b1b21726b01aa31965df9cf80d6606/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/mash/.android/build-cache/f787e3f71d0ba729bb46c494a78d9d1463b14d33/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_73e8a2f7a11396fd88e6487e0fecc76bd8af4f60/classes.dex" />
+        sha1="d68bbf92de9721b02a31a3833abfdc90144c7e39">
+        <dex dex="/home/mash/AndroidStudioProjects/rewriten/Nyumbani/app/build/intermediates/pre-dexed/debug/classes_1ae79be8b334373967446c71076821cda8a5925a.jar" />
     </item>
 
 </items>

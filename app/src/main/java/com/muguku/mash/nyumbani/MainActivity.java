@@ -32,11 +32,14 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView.Adapter recyclerViewadapter;
 
     //For connected devices
+    String GET_JSON_DATA_HTTP_URL = "https://nyumbanii.000webhostapp.com/php/ImageJsonData.php";
+
+    //For connected devices
   /*  String GET_JSON_DATA_HTTP_URL = "http://192.168.173.154/mnyumba/php/ImageJsonData.php";*/
 
 
         //For genymotion
-    String GET_JSON_DATA_HTTP_URL = "http://10.0.3.2/mnyumba/php/ImageJsonData.php";
+  /*  String GET_JSON_DATA_HTTP_URL = "http://10.0.3.2/mnyumba/php/ImageJsonData.php";*/
 
     String JSON_IMAGE_TITLE_NAME = "image_title";
     String JSON_IMAGE_URL = "image_url";

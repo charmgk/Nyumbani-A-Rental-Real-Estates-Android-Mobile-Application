@@ -39,12 +39,16 @@ public class HomeNavigationActivity extends AppCompatActivity
 
     RecyclerView.Adapter recyclerViewadapter;
 
+
+    //For connected devices
+    String GET_JSON_DATA_HTTP_URL = " https://nyumbanii.000webhostapp.com/php/ImageJsonData.php";
+
     //For connected devices
   /*  String GET_JSON_DATA_HTTP_URL = "http://192.168.173.154/mnyumba/php/ImageJsonData.php";*/
 
 
     //For genymotion
-    String GET_JSON_DATA_HTTP_URL = "http://10.0.3.2/mnyumba/php/ImageJsonData.php";
+  /*  String GET_JSON_DATA_HTTP_URL = "http://10.0.3.2/mnyumba/php/ImageJsonData.php";*/
 
     String JSON_IMAGE_TITLE_NAME = "image_title";
     String JSON_IMAGE_URL = "image_url";
@@ -212,12 +216,12 @@ public class HomeNavigationActivity extends AppCompatActivity
             startActivity(signInIntent4);
 
         } else if (id == R.id.nav_share) {
-            Intent signInIntent5 = new Intent(HomeNavigationActivity.this, SocialMediaActivity.class);
+            Intent signInIntent5 = new Intent(HomeNavigationActivity.this, PostNewActivity.class);
             startActivity(signInIntent5);
 
         } else if (id == R.id.nav_send) {
-            Intent signInIntent5 = new Intent(HomeNavigationActivity.this, ChatActivity.class);
-            startActivity(signInIntent5);
+            Intent signInIntent6 = new Intent(HomeNavigationActivity.this, ChatActivity.class);
+            startActivity(signInIntent6);
 
         }
 
