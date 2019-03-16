@@ -1,4 +1,4 @@
-# Nyumbani'!'
+# Nyumbani!
 
 An android Rental/Real Estates mobile applications using Recyclerview and Asynctask with Fragments.
 
