@@ -4,6 +4,8 @@ An android Rental/Real Estates mobile applications using Recyclerview and Asynct
 
 It includes a login page, register, a recycler view loader etc...
 
+N/b: This is a very old codebase! (over two years ago **I was still a NEWBIE!** use at your own risk!). :neutral_face:
+
 ## Screenshots
 
 1. Landing
